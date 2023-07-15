@@ -151,4 +151,9 @@
 
 ### spent time: about 8 hours
 
-### build on: Angular, jest, typescript
+### build on: Angular, typescript
+
+## Next upgrade
+* Build App on Ionic Framework
+* Implement Unit test on Jasmine, Karma and e2e testing on Playwright
+
