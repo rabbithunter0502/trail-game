@@ -1,0 +1,176 @@
+{
+  "scenes": [
+    {
+      "id": 0,
+      "backgroundUrl": "trail-1.jpg",
+      "description": "the trail 1",
+      "hitZones": [
+        {
+          "x": "10%",
+          "y": "50%",
+          "goto": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "backgroundUrl": "trail-2.jpg",
+      "description": "the trail 2",
+      "hitZones": [
+        {
+          "x": "10%",
+          "y": "50%",
+          "goto": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "backgroundUrl": "trail-3.jpg",
+      "description": "the trail 3",
+      "hitZones": [
+        {
+          "x": "10%",
+          "y": "50%",
+          "goto": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "backgroundUrl": "trail-4.jpg",
+      "description": "the trail 4",
+      "hitZones": [
+        {
+          "x": "10%",
+          "y": "50%",
+          "goto": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "backgroundUrl": "trail-5.jpg",
+      "description": "the trail 5",
+      "hitZones": [
+        {
+          "x": "10%",
+          "y": "50%",
+          "goto": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "backgroundUrl": "trail-6.jpg",
+      "description": "the trail 6",
+      "hitZones": [
+        {
+          "x": "10%",
+          "y": "50%",
+          "goto": 4
+        },
+        {
+          "x": "60%",
+          "y": "50%",
+          "goto": 6
+        },
+        {
+          "x": "80%",
+          "y": "50%",
+          "goto": 8
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "backgroundUrl": "trail-7.jpg",
+      "description": "the rest station",
+      "hitZones": [
+        {
+          "x": "10%",
+          "y": "50%",
+          "goto": 5
+        },
+        {
+          "x": "60%",
+          "y": "50%",
+          "goto": 7
+        },
+        {
+          "x": "80%",
+          "y": "50%",
+          "goto": 5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "backgroundUrl": "trail-8.jpg",
+      "description": "the trail 8",
+      "hitZones": [
+        {
+          "x": "50%",
+          "y": "50%",
+          "goto": 6
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "backgroundUrl": "trail-8.jpg",
+      "description": "the trail 8",
+      "hitZones": [
+        {
+          "x": "10%",
+          "y": "50%",
+          "goto": 5
+        },
+        {
+          "x": "60%",
+          "y": "50%",
+          "goto": 9
+        },
+        {
+          "x": "80%",
+          "y": "50%",
+          "goto": 10
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "backgroundUrl": "trail-9.jpg",
+      "description": "the trail 9",
+      "hitZones": [
+        {
+          "x": "10%",
+          "y": "50%",
+          "goto": 10
+        },
+        {
+          "x": "80%",
+          "y": "50%",
+          "goto": 8
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "backgroundUrl": "trail-10.jpg",
+      "description": "the trail 10",
+      "hitZones": [
+        {
+          "x": "10%",
+          "y": "50%",
+          "goto": 8
+        },
+        {
+          "x": "80%",
+          "y": "50%",
+          "goto": 9
+        }
+      ]
+    }
+  ]
+}

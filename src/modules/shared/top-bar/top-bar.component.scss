@@ -1,0 +1,32 @@
+.top-bar {
+  width: 100%;
+  max-width: 1000px;
+  background-color: #555;
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__title {
+   color: white;
+   }
+}
+
+.top-bar a {
+  width: 15%;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+  padding: 0 15px;
+}
+
+.top-bar a:hover {
+  background-color: #000;
+}
+
+@media only screen and (max-width: 392px) {
+  .top-bar {
+    flex-direction: column;
+  }
+}
+

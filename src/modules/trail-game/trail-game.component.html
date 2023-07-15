@@ -1,0 +1,29 @@
+<div class="trail-game" *ngIf="scenes">
+  <div class="trail-game__image-container" >
+    <a class="trail-game__image-container__button-left" (mousedown)="move(25);" >❮</a>
+    <a class="trail-game__image-container__button-right" (mousedown)="move(-25);" >❯</a>
+    <img class="trail-game__image-container__image"
+          [src]=" 'assets/images/' + scenes[currentSceneIndex].backgroundUrl"
+          alt="trail game image"
+          [style.left.%]="positionLeft"/>
+    <ng-container *ngIf="positionLeft === 75">
+      <span class="trail-game__image-container__walk-button"
+         *ngFor="let hitZone of scenes[currentSceneIndex].hitZones"
+         [ngStyle]="{
+           left: hitZone.x,
+           top: hitZone.y
+         }"
+         (click)="gotoScene(hitZone.goto)"
+      >
+        Walk ❯
+      </span>
+    </ng-container>
+    <div class="trail-game__image-container__description text">
+      <span>
+        &nbsp;{{scenes[currentSceneIndex].description}}&nbsp;
+      </span>
+    </div>
+  </div>
+</div>
+
+
